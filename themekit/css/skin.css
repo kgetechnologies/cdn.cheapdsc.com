@@ -1,0 +1,210 @@
+/*
+*
+* =================================================================
+* SKIN 
+* =================================================================
+*
+* Populate this file with the CSS of your custom design. 
+* Include this file into the <head> area of your pages, after the style.css and any other css file.
+*
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* 
+
+# COLORS
+===================================================================
+
+*/
+
+/* 
+
+# GLOBAL SECTION
+===================================================================
+
+*/
+main > section > .container {
+    padding-top: 36px;
+    padding-bottom: 30px;
+}
+
+
+/* 
+
+# SPACE
+===================================================================
+
+*/
+
+hr.space-lg {
+    height: 40px;
+}
+
+/*
+
+# CUSTOM CLASSES
+===================================================================
+
+*/
+
+
+
+/*
+
+# LAYOUT & TYPOGRAPHY
+===================================================================
+
+*/
+
+
+
+/*
+
+# NAVIGATION MENU
+===================================================================
+
+*/
+
+
+
+/*
+
+# HEADERS
+===================================================================
+
+*/
+
+
+.icon-links a {
+width: 0px;
+margin-right: 25px;
+}
+    .mt--7 {
+    margin-top: -7px !important;
+}
+.menu-full-width {
+width:98% !important;
+}
+.mt-2 {
+    margin-top: 2px !important;
+}
+.pb-40 {
+    padding-bottom: 40px !important;
+}
+.float-right {
+    float:right !important;
+}
+.pb-41 {
+    padding-bottom: 41px
+}
+.dropdown > ul, .dropdown-submenu > ul {
+    min-width:0px;
+}
+.menu-cnt > ul > li > a {
+    font-size: 15px;
+}
+.menu-mini > .container > ul > li {
+    font-weight: 700;
+    padding-right:0px;
+}
+    /*
+
+# FOOTER
+===================================================================
+
+*/
+
+    footer > .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/*
+
+# COMPONENTS
+===================================================================
+*/
+
+
+.box-steps-vertical {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/*
+
+# CONTAINERS
+===================================================================
+*/
+
+
+
+/*
+
+# RESPONSIVE
+===================================================================
+
+Large devices (desktops, less than 1200px)
+-------------------------------------------------------------------
+*/
+
+@media (max-width: 1199.98px) {
+
+}
+
+/*
+Medium devices (tablets, less than 992px)
+-------------------------------------------------------------------
+*/
+
+@media (max-width: 991.98px) {
+    .dropdown:hover > ul, .dropdown:hover .mega-menu, .dropdown-submenu:hover > ul {
+        display: block;
+        z-index: 4;
+    }
+    .dropdown ul:not(.icon-list) {
+        position: absolute;
+        box-shadow: 0px 6px 5px rgb(0 0 0 / 17%);
+    }
+    .footer-bar > .container {
+        text-align: center
+    }
+
+        .footer-bar > .container > span:last-child {
+            content: "\a";
+            white-space: pre;
+            float: none
+        } 
+}
+
+/*
+Small devices (landscape phones, less than 768px)
+-------------------------------------------------------------------
+*/
+
+@media (max-width: 767.98px) {
+  
+}
+
+/*
+Extra small devices (portrait phones, less than 576px)
+-------------------------------------------------------------------
+*/
+
+@media (max-width: 575.98px) {
+    .mobile-d-none {
+        display: none;
+    }
+    .menu-full-width {
+        width:90% !important;
+    }
+}
+@media (max-width: 463.98px) {
+    .menu-full-width {
+        width: 90% !important;
+    }
+}
